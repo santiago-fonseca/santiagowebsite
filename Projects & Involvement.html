@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css"> <!-- your stylesheet-->
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> <!--creates social media icons-->
+    <title>Home</title>
+
+    
+    
+    <!--Style-->
+    <style>
+      body {
+          font-family: Arial, Helvetica, sans-serif;
+      }
+
+      header {
+          background: black;
+          padding: 20px 40px;
+          color: white;
+      }
+
+      section {
+          background: white;
+          color: black;
+          padding: 20px;
+          display: flex;
+      }
+
+      footer {
+          background: black;
+          color: white;
+          padding: 20px;
+          
+          
+      }
+      
+
+      button {
+          background: gray;
+          border: white;
+          color: white;
+          border-radius: 25px;
+      }
+
+
+      li {
+          display: inline-block;
+          margin-right: 20px !important;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="background-pic">
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" id="bold">
+            <img class="logo" src="Pictures/TAM-Logo.jpg">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active-page" href="Projects & Involvement.html" id="black">Projects & Involvement</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html" id="black">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="Pictures/Fonseca_Santiago_Resume.pdf" id="black">Resume</a>
+              </li>
+              <!--<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"  id="black" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Resume</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>-->
+            </ul>
+          </div>
+        </nav>
+        <!--End Navigation Bar-->
+  
+
+    <!--About Page-->
+    <div>
+      <p class="text-center h1 about2">Projects & Involvement</p>
+      <hr> 
+    </div>
+    <!--Cards-->
+      <div>
+        <ul class="cards ">
+          <li class="card-item">
+            <div class="card marg" style="width: 18rem;">
+              <img class="card-img-top" src="Pictures/SHPE.JPG" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">SHPE - Technical Affairs Committee</h5>
+                <p class="card-text">Work alongside the SHPE Technical Affairs Committee to increase the current technical integration of our club in its tools.</p>
+                <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal1">More information</button>
+              </div>
+          </li>
+
+          <li class="card-item">
+            <div class="card marg" style="width: 18rem;">
+              <img class="card-img-top" src="Pictures/website.JPG" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Building a website from scratch</h5>
+                <p class="card-text">Built a website using HTML5 and CSS from scratch with the help of the SHPE Technical Affairs Committee.</p>
+                <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal2">More information</button>
+              </div>
+          </li>
+        </ul>
+      </div>
+    
+      
+      <!--Modals-->
+      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">More information</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                Work in improving tools such as the point system, member database, and the tamu shpe website.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Exit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">More infosrmation</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Built using Visual Studio Code 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Exit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Modal-->
+    </div>
+    <!--End Cards-->
+
+    <!--Social Media-->
+    <footer class="container-fluid">
+      <h3 class="text-center">Follow us on Social Media!</h3>
+      <div class="social text-center">
+        <a href="https://www.facebook.com"><i class="fab fa-facebook "></i></a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram "></i></a>
+        <a href="https://www.twitter.com/"><i class="fab fa-twitter "></i></a>
+        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin "></i></a>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
